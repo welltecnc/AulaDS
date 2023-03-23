@@ -12,8 +12,82 @@
     <!--<button onclick="alert('Wellington')">Clique aqui</button>-->
 
     <script>
+    //criando uma variavel indefinida
+    let nome;
+    console.log(nome);
+    //criando uma vazia
+    let disciplina = null;
+    console.log(disciplina);
+    //criando uma variavel com valor
+    let texto="este é um valor"
+    console.log(texto);
 
-        
+      //declarando a varival como tipo numero
+    let idadeAluno = 18
+    console.log(idadeAluno);
+
+      //declarando uma variavel do tipo texto
+    let idadeAluno1 ="18"
+    console.log(idadeAluno1);
+    
+    //convertendo float para int
+    let numeroFloat =230.451
+    console.log(parseInt(numeroFloat));
+
+     //convertendo de string para float
+
+     let numeroString ="230.451"
+     console.log(parseFloat(numeroString));
+
+    //convertendo float para string
+
+    let numberFloat =239.657
+    console.log(numberFloat.toString());
+    
+  //ver qual o tipo da variavel
+ let num1 = 1
+ let verificar = typeof num1
+ console.log(verificar)
+
+ //contar caracteres
+
+ let senha ="minha senha é forte"
+ //alert(senha.length);
+
+  //indica o inicio da posição do caracter
+ let texto1 ="Aprendendo javascript"
+ console.log(texto1.indexOf("A"));
+
+
+ //indica o final da posição do caracter
+ let texto2 =" ola gente vamos aprender"
+ console.log(texto2.lastIndexOf("os"));
+
+ //passando informações para a tela
+
+ document.write("informações para tela<br><br>");
+ document.write("Professor Wellington<br><br>");
+ document.write("Professor Wellington<br><br>");
+
+  //passando informações concatenando
+
+  let nome1= "Wellington"
+  let facu ="Fiap"
+  document.write("Meu Nome é Professor " +nome1+ " da " +facu+ "!")
+
+   let carro ={
+    tipo:"Sedan",
+    cor:"Azul",
+    Modelo:"Belina",
+    marca:"Ford",
+    Ano: "1970" ,
+    velocidade: function(){
+        alert("Estou em alta velocidade")
+    }
+   }
+   console.log(carro.marca);
+   carro.velocidade()
+
 
     </script>
 </body>
